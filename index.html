@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login Page</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Main style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-danger-subtle">
+    <section class="m-5 rounded-3 w-50 mx-auto bg-danger">
+        <div class="m-auto py-5">
+            <div class="container">
+                <h1>Smart login System</h1>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name="emailLogin" id="emailLogin"
+                        placeholder="Enter Your Email" />
+                    <label for="email">Enter Your Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" name="passwordLogin" id="passwordLogin"
+                        placeholder="Enter Your password" />
+                    <label for="password">Enter Your Password</label>
+                </div>
+                <button class="btn btn-light mx-auto px-4 d-block" id="loginBtn">Login</button>
+                <div class="text-center my-3">
+                    <p>Dont have an account ?</p>
+                    <button class="btn btn-primary" id="singUpBtn">Sing Up</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Main js -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

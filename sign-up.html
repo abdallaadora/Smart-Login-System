@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login Page</title>
+    <!-- bootstrap -->
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- Main style -->
+      <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-danger-subtle">
+    <section class="m-5 rounded-3 w-50 mx-auto bg-danger">
+<div class="m-auto py-5">
+    <div class="container">
+        <h1>Smart login System</h1>
+    <div class="form-floating mb-3">
+        <input
+            type="text"
+            class="form-control"
+            name="nameInput"
+            id="nameInput"
+            placeholder="Enter Your Name"
+        />
+        <div class="my-2 rounded-3 bg-black d-none"><span class="text-light ">Enter a Valid Name ex : Route</span></div>
+        <label for="nameInput">Enter Your Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input
+            type="email"
+            class="form-control"
+            name="emailInput"
+            id="emailInput"
+            placeholder="Enter Your Email"
+        />
+        <div class="my-2 rounded-3 bg-black d-none"><span class="text-light ">Enter a Valid Email ex : mail@testing.com</span></div>
+        <div class="my-2 rounded-3 bg-black d-none"><span class="text-light ">This Email Alredy exists</span></div>
+
+        <label for="email">Enter Your Email</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input
+            type="password"
+            class="form-control"
+            name="passwordInput"
+            id="passwordInput"
+            placeholder="Enter Your password"
+        />
+        <label for="password">Enter Your Password</label>
+    </div>
+    <div class="text-center my-3">
+        <button class="btn btn-primary" id="signUpBtn">Sign Up</button>
+        <div
+            class="alert alert-success my-3 d-none"
+            role="alert"
+        >
+            <strong>Success</strong>
+        </div>
+        
+    </div>
+    </div>
+    
+</div>
+    </section>
+     <!-- Main js -->
+      <script src="./js/sign-up.js"></script>
+</body>
+</html>
