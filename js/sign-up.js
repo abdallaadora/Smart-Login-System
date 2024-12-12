@@ -14,9 +14,9 @@ signUpBtn.onclick = addUser;
 emailInput.addEventListener('input', emailValid)
 emailInput.addEventListener('focus', repetEmail)
 nameInput.addEventListener('input', nameValid)
-document.addEventListener('mousemove', isEmpty)
+// document.addEventListener('mousemove', isEmpty)
 
-document.addEventListener('input' , function(){
+document.addEventListener('mousemove' , function(){
     if(emailValid() == false ||  nameValid() == false || repetEmail() == false || isEmpty() == false){
         signUpBtn.setAttribute('disabled', 'disabled')
     }else{

@@ -1,6 +1,7 @@
 body{
     background-image: url(../image/william-warby-ld4wZGqlLF4-unsplash.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 button.position-absolute{
