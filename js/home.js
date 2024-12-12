@@ -6,8 +6,8 @@ logOutBtn.addEventListener('click' , function(){
 welcomeuser()
 
 function welcomeuser(){
-welcome.innerHTML = `Welcome ${JSON.parse(localStorage.getItem('userName'))}` 
+welcome.innerHTML = `Welcome ${JSON.parse(localStorage.getItem('userName'))} <i class="fa-regular fa-face-smile"></i>` 
 var x = JSON.parse(localStorage.getItem('userName'))
-console.log('hi' , x);
+// console.log('hi' , x);
 
 }

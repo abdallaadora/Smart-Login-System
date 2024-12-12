@@ -86,6 +86,8 @@ function repetEmail() {
         if (emailInput.value == usersList[i].email) {
             emailInput.nextElementSibling.nextElementSibling.classList.remove('d-none')
             emailInput.nextElementSibling.nextElementSibling.classList.add('d-block')
+            emailInput.classList.add('is-invalid')
+            emailInput.classList.remove('is-valid')
             // signUpBtn.setAttribute('disabled', 'disabled')
             // console.log('hiiii form repite');
             return false;
@@ -93,6 +95,8 @@ function repetEmail() {
         } else {
             emailInput.nextElementSibling.nextElementSibling.classList.add('d-none')
             emailInput.nextElementSibling.nextElementSibling.classList.remove('d-block')
+            emailInput.classList.add('is-valid')
+            emailInput.classList.remove('is-invalid')
             // signUpBtn.removeAttribute('disabled')
             // console.log('hiiii');
             return true;

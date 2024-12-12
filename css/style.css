@@ -1,4 +1,26 @@
+body{
+    background-image: url(../image/william-warby-ld4wZGqlLF4-unsplash.jpg);
+    background-size: cover;
+}
+
 button.position-absolute{
     right: 10px;
     top: 10px ;
 }
+
+.bg-main{
+    /* background-color: rgba(45, 45, 45, 0.7); */
+    background-image: linear-gradient(rgba(105, 91, 144,0.7) , rgba(192, 122, 90,0.7));
+}
+
+.alert-masg{
+    background-image: linear-gradient(to right,rgba(143, 117, 112, 0.511),rgba(19, 11, 8, 0.37));
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 16px;
+    font-family:cursive ;
+}
+
+/* .text-main{
+    color: #ffff;
+} */
